@@ -39,6 +39,7 @@ services:
       PMA_PORT: 3306
       PMA_USER: root
       PMA_PASSWORD: root
+      UPLOAD_LIMIT:300M
 
   redis-server:
     restart: always
